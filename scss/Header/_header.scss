@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+header{
+    .hero_parent{
+        background-image: url(../../img/png/525ce8c68675e9116674646ad80f9735.png);
+        width: 100%;
+        height: 620px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: 120rem;
+        background-position: center center;
+        .hero_box{
+            width: 50%;
+            padding-left: 15rem;
+            padding-top: 4rem;
+            color: #fff;
+            img{
+                width: 250px;
+                margin-bottom: 12rem;
+            }
+            h2{
+                font-size: 25px;
+                font-weight: 500;
+                font-family: "Lato", sans-serif;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+            }
+            h1{
+                font-size: 65px;
+                font-family: "Lato", sans-serif;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@use'./mixins';
+@use'./normal';
+@use'./variable';
+// header scss
+@use'./Header/header';
+// main scss
+@use'./main/mixin';
+// footer scss
+@use'./footer/footer';

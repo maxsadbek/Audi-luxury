@@ -1,0 +1,35 @@
+@mixin flex-center($justify: center, $align: center, $dir: row) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin responsive-font($min-size, $max-size, $min-vw: 320px, $max-vw: 1200px) {
+  font-size: $min-size;
+
+  @media (min-width: $min-vw) {
+    font-size: calc(#{$min-size} + (#{$max-size} - #{$min-size}) * ((100vw - #{$min-vw}) / (#{$max-vw} - #{$min-vw})));
+  }
+
+  @media (min-width: $max-vw) {
+    font-size: $max-size;
+  }
+}
+@mixin button-style($bg, $color: $color-light, $padding: .75em 1.5em, $radius: 4px) {
+  display: inline-block;
+  background-color: $bg;
+  color: $color;
+  padding: $padding;
+  border: none;
+  border-radius: $radius;
+  font-family: $font-base;
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($bg, 8%);
+  }
+}
