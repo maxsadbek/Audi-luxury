@@ -117,7 +117,7 @@ main{
     .as{
         background-color: #000;
         color: #fff;
-        height: 1060px;
+        height: 1100px;
         .card_as_box{
             display: flex;
             justify-content: center;
@@ -146,9 +146,16 @@ main{
                 font-weight: 700;
                 font-size: 18px;
                 text-transform: capitalize;
+                cursor: pointer;
             }
             p{
                 font-family: "Open sans", sans-serif;
+            }
+            .as_p{
+                font-size: 14px;
+            }
+            .Read_button{
+                margin-top: 2.5rem;
             }
         }
     }
@@ -190,5 +197,50 @@ main{
             height: 450px;
             object-fit: cover;
         }
+    }
+    .Because_parent{
+        background-image: url(../../img/png/65ab14931d6fd00c4b170e103a18f38b.png);
+        background-repeat: no-repeat;
+         width: 100%;
+        height: 580px;
+        background-size: 120rem;
+        object-fit: cover;
+         .Because{
+       position: relative;
+      .Because_box{
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        width: 37%;
+        padding: 5rem;
+        font-family: "Lato", sans-serif;
+          h2{
+            font-size: 27px;
+            color: #fff;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        h1{
+            font-size: 60px;
+            color: #fff;
+            width: 60%;
+        }
+        h4{
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        p{
+            font-family: "Open Sans", sans-serif;
+            color: #fff;
+            width: 80%;
+            font-size: 20px;
+            line-height: 1.6;
+            margin-top: 1rem;
+        }
+      }
+    }
     }
 }

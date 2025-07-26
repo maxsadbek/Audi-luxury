@@ -160,7 +160,7 @@ main .Avaiable_parent .Avaiable_box2 {
 main .as {
   background-color: #000;
   color: #fff;
-  height: 1060px;
+  height: 1100px;
 }
 main .as .card_as_box {
   display: flex;
@@ -191,9 +191,16 @@ main .as .card_as button {
   font-weight: 700;
   font-size: 18px;
   text-transform: capitalize;
+  cursor: pointer;
 }
 main .as .card_as p {
   font-family: "Open sans", sans-serif;
+}
+main .as .card_as .as_p {
+  font-size: 14px;
+}
+main .as .card_as .Read_button {
+  margin-top: 2.5rem;
 }
 main .As_parent {
   display: flex;
@@ -233,6 +240,51 @@ main .As_parent img {
   width: 600px;
   height: 450px;
   object-fit: cover;
+}
+main .Because_parent {
+  background-image: url(../../img/png/65ab14931d6fd00c4b170e103a18f38b.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 580px;
+  background-size: 120rem;
+  object-fit: cover;
+}
+main .Because_parent .Because {
+  position: relative;
+}
+main .Because_parent .Because .Because_box {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  width: 37%;
+  padding: 5rem;
+  font-family: "Lato", sans-serif;
+}
+main .Because_parent .Because .Because_box h2 {
+  font-size: 27px;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+main .Because_parent .Because .Because_box h1 {
+  font-size: 60px;
+  color: #fff;
+  width: 60%;
+}
+main .Because_parent .Because .Because_box h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+main .Because_parent .Because .Because_box p {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  width: 80%;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
