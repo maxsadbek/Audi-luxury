@@ -10,7 +10,7 @@ header{
         background-size: 70rem;
         background-position: center center;
         .hero_box{
-            width: 100%;
+            width: 90%;
             padding-left: 1rem;
             padding-top: 4rem;
             color: #fff;
@@ -46,8 +46,8 @@ main{
         position: absolute;
         top: 0;
         left: 1rem;
-        width: 100%;
-        padding: 1rem;
+        width: 90%;
+        padding: 0rem;
         font-family: "Lato", sans-serif;
           h2{
             font-size: 22px;
@@ -101,6 +101,7 @@ main{
         height: 900px;
         position: relative;
         .Avaiable_box{
+            width: 90%;
             margin-left: 1rem;
             h2{
                 margin-top: -13rem;
@@ -130,7 +131,6 @@ main{
                 margin-bottom: 1rem;
             }
             button{
-                padding: 12px 27px;
                 width: 60%;
                 font-size: 15px;
                 background-color: #000;
@@ -214,11 +214,12 @@ main{
         justify-content: center;
         flex-direction: column;
         max-width: 1200px;
-        width: 100%;
+        width: 95%;
         align-items: center;
         margin-left: 0rem;
         gap: 3rem;
         padding-top: 0rem;
+        margin-left: 1rem;
         .as_box{
             font-family: "Lato", sans-serif;
             h2{
@@ -255,16 +256,16 @@ main{
          width: 100%;
         height: 480px;
         background-position: 50% 0;
-        background-size: 70rem;
+        background-size: 90rem;
         object-fit: cover;
          .Because{
        position: relative;
       .Because_box{
         position: absolute;
         top: 0;
-        right: 1rem;
+        left: 1rem;
         bottom: 0;
-        width: 100%;
+        width: 80%;
         padding: 1rem;
         font-family: "Lato", sans-serif;
           h2{
@@ -273,6 +274,7 @@ main{
             margin-bottom: 1rem;
             text-transform: uppercase;
             font-weight: 500;
+            width: 90%;
         }
         h1{
             font-size: 30px;
@@ -288,10 +290,10 @@ main{
         p{
             font-family: "Open Sans", sans-serif;
             color: #fff;
-            width: 100%;
+            width: 90%;
             font-size: 20px;
             line-height: 1.6;
-            margin-top: 1rem;
+            margin-top: 5rem;
         }
       }
     }
@@ -303,19 +305,20 @@ main{
     .Backgorund{
         background-image: url(../../img/png/9a5f7fd62a03bd322010a4c928157df8.png);
         width: 100%;
-        height: 670px;
+        height: 370px;
         background-repeat: no-repeat;
-        background-size: 120rem;
+        background-size: 50rem;
     }
     .card{
         display: flex;
         justify-content: center;
-        margin-top: 3rem;
+        margin-top: 1rem;
         flex-direction: column;
         gap: 3rem;
         .card_box{
-            width: 350px;
+            width: 90%;
             height: 450px;
+            margin-left: 1.5rem;
             h1{
                 color: #fff;
                 font-size: 27px;
@@ -328,7 +331,7 @@ main{
                 margin-top: 1rem;
             }
             img{
-                width: 350px;
+                width: 100%;
                 height: 250px;
             }
         }

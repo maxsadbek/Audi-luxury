@@ -334,7 +334,7 @@ main .card .card_box img {
     background-position: center center;
   }
   header .hero_parent .hero_box {
-    width: 100%;
+    width: 90%;
     padding-left: 1rem;
     padding-top: 4rem;
     color: #fff;
@@ -369,8 +369,8 @@ main .card .card_box img {
     position: absolute;
     top: 0;
     left: 1rem;
-    width: 100%;
-    padding: 1rem;
+    width: 90%;
+    padding: 0rem;
     font-family: "Lato", sans-serif;
   }
   main .luxury_parent .luxury_box h2 {
@@ -424,6 +424,7 @@ main .card .card_box img {
     position: relative;
   }
   main .Avaiable_parent .Avaiable_box {
+    width: 90%;
     margin-left: 1rem;
   }
   main .Avaiable_parent .Avaiable_box h2 {
@@ -454,7 +455,6 @@ main .card .card_box img {
     margin-bottom: 1rem;
   }
   main .Avaiable_parent .Avaiable_box button {
-    padding: 12px 27px;
     width: 60%;
     font-size: 15px;
     background-color: #000;
@@ -534,11 +534,12 @@ main .card .card_box img {
     justify-content: center;
     flex-direction: column;
     max-width: 1200px;
-    width: 100%;
+    width: 95%;
     align-items: center;
     margin-left: 0rem;
     gap: 3rem;
     padding-top: 0rem;
+    margin-left: 1rem;
   }
   main .As_parent .as_box {
     font-family: "Lato", sans-serif;
@@ -575,7 +576,7 @@ main .card .card_box img {
     width: 100%;
     height: 480px;
     background-position: 50% 0;
-    background-size: 70rem;
+    background-size: 90rem;
     object-fit: cover;
   }
   main .Because_parent .Because {
@@ -584,9 +585,9 @@ main .card .card_box img {
   main .Because_parent .Because .Because_box {
     position: absolute;
     top: 0;
-    right: 1rem;
+    left: 1rem;
     bottom: 0;
-    width: 100%;
+    width: 80%;
     padding: 1rem;
     font-family: "Lato", sans-serif;
   }
@@ -596,6 +597,7 @@ main .card .card_box img {
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-weight: 500;
+    width: 90%;
   }
   main .Because_parent .Because .Because_box h1 {
     font-size: 30px;
@@ -611,10 +613,10 @@ main .card .card_box img {
   main .Because_parent .Because .Because_box p {
     font-family: "Open Sans", sans-serif;
     color: #fff;
-    width: 100%;
+    width: 90%;
     font-size: 20px;
     line-height: 1.6;
-    margin-top: 1rem;
+    margin-top: 5rem;
   }
   main .Backgorund_parent {
     background-color: #000;
@@ -622,20 +624,21 @@ main .card .card_box img {
   main .Backgorund {
     background-image: url(../../img/png/9a5f7fd62a03bd322010a4c928157df8.png);
     width: 100%;
-    height: 670px;
+    height: 370px;
     background-repeat: no-repeat;
-    background-size: 120rem;
+    background-size: 50rem;
   }
   main .card {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     flex-direction: column;
     gap: 3rem;
   }
   main .card .card_box {
-    width: 350px;
+    width: 90%;
     height: 450px;
+    margin-left: 1.5rem;
   }
   main .card .card_box h1 {
     color: #fff;
@@ -649,7 +652,7 @@ main .card .card_box img {
     margin-top: 1rem;
   }
   main .card .card_box img {
-    width: 350px;
+    width: 100%;
     height: 250px;
   }
 }
