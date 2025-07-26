@@ -160,6 +160,40 @@ main .Avaiable_parent .Avaiable_box2 {
 main .as {
   background-color: #000;
   color: #fff;
+  height: 1060px;
+}
+main .as .card_as_box {
+  display: flex;
+  justify-content: center;
+  gap: 4.8rem;
+}
+main .as .card_as {
+  width: 350px;
+  height: 400px;
+  margin-top: 3rem;
+}
+main .as .card_as h2 {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+main .as .card_as img {
+  height: 300px;
+  object-fit: cover;
+}
+main .as .card_as button {
+  width: 30%;
+  margin-top: 1rem;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Open sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+main .as .card_as p {
+  font-family: "Open sans", sans-serif;
 }
 main .As_parent {
   display: flex;
